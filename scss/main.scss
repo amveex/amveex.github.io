@@ -1,0 +1,34 @@
+.ONE {
+    background-image: url(../img/backgrounds/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(47, 24, 147, 100%);
+
+    .navbar {
+        &__link {
+            color: #ffffff;
+            font-size: 24px;
+        }
+    }
+
+    .info {
+        &__text {
+            color: #ffffff;
+            font-size: 72px;
+        }
+
+        &__text:nth-child(2) {
+            font-size: 24px;
+        }
+    }
+
+    .btn {
+        background-color: #482BE7;
+        color: #ffffff;
+        font-size: 24px;
+        padding: 20px 40px;
+        border-radius: 40px;
+        border: none;
+        outline: none;
+    }
+}

@@ -1,0 +1,22 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ONE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ONE .navbar {
+  display: flex;
+  gap: 50px;
+}
+.ONE .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  width: 45%;
+}
