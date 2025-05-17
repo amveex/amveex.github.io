@@ -36,3 +36,42 @@ section {
         text-align: center;
     }
 }
+
+.THREE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .imgmac {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 35%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    .wrap {
+        display: flex;
+        gap: 50px;
+        width: 35%;
+        margin-left: 10%;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+        }
+    }
+}
+

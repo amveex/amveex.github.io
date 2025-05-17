@@ -5,25 +5,15 @@
     background-color: rgba(47, 24, 147, 100%);
 
     .navbar {
-        &__link {
-            color: #FFFFFF;
-            font-size: 24px;
-        }
+        &__link { color: #FFFFFF; font-size: 24px; }
     }
 
     .info {
-        &__text {
-            color: #FFFFFF;
-        }
+        &__text { color: #FFFFFF; }
 
-        &__text:nth-child(1) {
-            font-size: 72px;
-            font-weight: bold;
-        }
+        &__text:nth-child(1) { font-size: 72px; font-weight: bold; }
 
-        &__text:nth-child(2) {
-            font-size: 24px;
-        }
+        &__text:nth-child(2) { font-size: 24px; }
     }
 
     .btn {
@@ -44,22 +34,30 @@
     background-color: rgba(47, 24, 147, 100%);
 
     .info {
-        &__text {
-            color: #FFFFFF;
-        }
+        &__text { color: #FFFFFF; }
 
-        &__text:nth-child(1) {
-            font-size: 20px;
-        }
+        &__text:nth-child(1) { font-size: 20px; }
 
-        &__text:nth-child(2) {
-            font-size: 58px;
-            font-weight: bold;
-        }
+        &__text:nth-child(2) { font-size: 58px; font-weight: bold; }
 
-        &__text:nth-child(3) {
-            color: #AAAAAA;
-            font-size: 24px;
-        }
+        &__text:nth-child(3) { color: #AAAAAA; font-size: 24px; }
     }
 }
+
+.THREE {
+    background-image: url(../img/backgrounds/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(47, 24, 147, 100%);
+
+    .title {
+        &__text { color: #FFFFFF; }
+
+        &__text:nth-child(1) { font-size: 42px; font-weight: bold; }
+
+        &__text:nth-child(2) { font-size: 22px; }
+    }
+
+    .info { &__text { color: #FFFFFF; }}
+}
+

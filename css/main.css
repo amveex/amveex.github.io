@@ -48,3 +48,23 @@
   color: #AAAAAA;
   font-size: 24px;
 }
+
+.THREE {
+  background-image: url(../img/backgrounds/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(47, 24, 147);
+}
+.THREE .title__text {
+  color: #FFFFFF;
+}
+.THREE .title__text:nth-child(1) {
+  font-size: 42px;
+  font-weight: bold;
+}
+.THREE .title__text:nth-child(2) {
+  font-size: 22px;
+}
+.THREE .info__text {
+  color: #FFFFFF;
+}

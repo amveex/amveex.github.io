@@ -33,3 +33,37 @@ section {
   width: 55%;
   text-align: center;
 }
+
+.THREE {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.THREE .imgmac {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.THREE .title {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 35%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+.THREE .wrap {
+  display: flex;
+  gap: 50px;
+  width: 35%;
+  margin-left: 10%;
+}
+.THREE .wrap .info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
