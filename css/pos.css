@@ -3,17 +3,25 @@ section {
   height: 100vh;
 }
 
-.ONE {
+section {
+  scroll-snap-align: start;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+#ONE {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.ONE .navbar {
+#ONE .navbar {
   display: flex;
   gap: 50px;
 }
-.ONE .info {
+#ONE .info {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -21,12 +29,12 @@ section {
   width: 45%;
 }
 
-.TWO {
+#TWO {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.TWO .info {
+#TWO .info {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -34,20 +42,20 @@ section {
   text-align: center;
 }
 
-.THREE {
+#THREE {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.THREE .imgmac {
+#THREE .imgmac {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
 }
-.THREE .title {
+#THREE .title {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -55,15 +63,43 @@ section {
   margin-left: 10%;
   margin-bottom: 5%;
 }
-.THREE .wrap {
+#THREE .wrap {
   display: flex;
   gap: 50px;
   width: 35%;
   margin-left: 10%;
 }
-.THREE .wrap .info {
+#THREE .wrap .info {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 20px;
+}
+
+#FOUR {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#FOUR .title {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#FOUR .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+#FOUR .form .choice {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  width: 100%;
 }

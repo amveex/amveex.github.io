@@ -1,24 +1,24 @@
-.ONE {
+#ONE {
   background-image: url(../img/backgrounds/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
 }
-.ONE .navbar__link {
+#ONE .navbar__link {
   color: #FFFFFF;
   font-size: 24px;
 }
-.ONE .info__text {
+#ONE .info__text {
   color: #FFFFFF;
 }
-.ONE .info__text:nth-child(1) {
+#ONE .info__text:nth-child(1) {
   font-size: 72px;
   font-weight: bold;
 }
-.ONE .info__text:nth-child(2) {
+#ONE .info__text:nth-child(2) {
   font-size: 24px;
 }
-.ONE .btn {
+#ONE .btn {
   background-color: #482BE7;
   color: #FFFFFF;
   font-size: 24px;
@@ -28,43 +28,66 @@
   outline: none;
 }
 
-.TWO {
+#TWO {
   background-image: url(../img/backgrounds/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
 }
-.TWO .info__text {
+#TWO .info__text {
   color: #FFFFFF;
 }
-.TWO .info__text:nth-child(1) {
+#TWO .info__text:nth-child(1) {
   font-size: 20px;
 }
-.TWO .info__text:nth-child(2) {
+#TWO .info__text:nth-child(2) {
   font-size: 58px;
   font-weight: bold;
 }
-.TWO .info__text:nth-child(3) {
+#TWO .info__text:nth-child(3) {
   color: #AAAAAA;
   font-size: 24px;
 }
 
-.THREE {
+#THREE {
   background-image: url(../img/backgrounds/bg3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
 }
-.THREE .title__text {
+#THREE .title__text {
   color: #FFFFFF;
 }
-.THREE .title__text:nth-child(1) {
+#THREE .title__text:nth-child(1) {
   font-size: 42px;
   font-weight: bold;
 }
-.THREE .title__text:nth-child(2) {
+#THREE .title__text:nth-child(2) {
   font-size: 22px;
 }
-.THREE .info__text {
+#THREE .info__text {
   color: #FFFFFF;
+}
+
+#FOUR {
+  background-image: url(../img/backgrounds/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(47, 24, 147);
+}
+#FOUR .title__text {
+  color: #FFFFFF;
+}
+#FOUR .title__text:nth-child(1) {
+  font-size: 50px;
+  font-weight: bold;
+}
+#FOUR .title__text:nth-child(2) {
+  font-size: 20px;
+  line-height: 35px;
+}
+#FOUR .form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 150px;
 }

@@ -1,9 +1,8 @@
-section {
-    width: 100vw;
-    height: 100vh;
-}
+section { width: 100vw; height: 100vh; }
+section { scroll-snap-align: start; }
+html { scroll-snap-type: y mandatory; }
 
-.ONE {
+#ONE {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,7 +22,7 @@ section {
     }
 }
 
-.TWO {
+#TWO {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +36,7 @@ section {
     }
 }
 
-.THREE {
+#THREE {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +70,37 @@ section {
             flex-direction: column;
             align-items: start;
             gap: 20px;
+        }
+    }
+}
+
+#FOUR {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .title {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+
+        .choice {
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 25px;
+            width: 100%;
         }
     }
 }
