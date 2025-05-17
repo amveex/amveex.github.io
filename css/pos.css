@@ -20,3 +20,16 @@ section {
   text-align: center;
   width: 45%;
 }
+
+.TWO {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TWO .info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 55%;
+  text-align: center;
+}
