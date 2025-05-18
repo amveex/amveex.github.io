@@ -28,6 +28,9 @@ html {
   text-align: center;
   width: 45%;
 }
+#ONE .btn {
+  padding: 20px 40px;
+}
 
 #TWO {
   display: flex;
@@ -91,15 +94,27 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 25px;
+  padding: 150px 75px 150px 75px;
   position: relative;
 }
 #FOUR .form .choice {
   position: absolute;
   top: 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 25px;
   width: 100%;
+}
+#FOUR .form .choice__text {
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+}
+#FOUR .form .input {
+  width: 350px;
+  padding: 15px 20px;
+}
+#FOUR .form .btn {
+  width: 350px;
+  padding: 15px 20px;
+  text-align: center;
 }

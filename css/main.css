@@ -22,7 +22,6 @@
   background-color: #482BE7;
   color: #FFFFFF;
   font-size: 24px;
-  padding: 20px 40px;
   border-radius: 40px;
   border: none;
   outline: none;
@@ -89,5 +88,26 @@
 #FOUR .form {
   background-color: #FFFFFF;
   border-radius: 10px;
-  padding: 150px;
+}
+#FOUR .form .choice__text {
+  border-bottom: 3px solid #EBEAED;
+}
+#FOUR .form .choice__text:nth-child(1) {
+  border-bottom: 3px solid #000000;
+}
+#FOUR .form .input {
+  border-radius: 30px;
+  border: 2px solid #EBEAED;
+  outline: none;
+}
+#FOUR .form .btn {
+  background-color: #25DAC5;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+}
+#FOUR .form .btn:nth-child(5) {
+  background-color: #1DA1F2;
 }
