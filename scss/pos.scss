@@ -18,7 +18,7 @@ html { scroll-snap-type: y mandatory; }
         flex-direction: column;
         gap: 30px;
         text-align: center;
-        width: 45%;
+        width: 50%;
     }
 
     .btn { padding: 20px 40px; }
@@ -56,7 +56,7 @@ html { scroll-snap-type: y mandatory; }
         display: flex;
         flex-direction: column;
         gap: 25px;
-        width: 35%;
+        width: 40%;
         margin-left: 10%;
         margin-bottom: 5%;
     }
@@ -64,7 +64,7 @@ html { scroll-snap-type: y mandatory; }
     .wrap {
         display: flex;
         gap: 50px;
-        width: 35%;
+        width: 40%;
         margin-left: 10%;
 
         .info {
@@ -82,7 +82,7 @@ html { scroll-snap-type: y mandatory; }
     align-items: center;
 
     .title {
-        width: 25%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -122,3 +122,32 @@ html { scroll-snap-type: y mandatory; }
     }
 }
 
+#FIVE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 175px;
+
+    .wrap {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+        .card {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 30px;
+            height: 225px;
+
+            &__wrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+            }
+        }
+    }
+}

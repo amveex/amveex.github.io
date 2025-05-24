@@ -7,6 +7,7 @@
 #ONE .navbar__link {
   color: #FFFFFF;
   font-size: 24px;
+  cursor: pointer;
 }
 #ONE .info__text {
   color: #FFFFFF;
@@ -25,6 +26,7 @@
   border-radius: 40px;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 #TWO {
@@ -91,6 +93,7 @@
 }
 #FOUR .form .choice__text {
   border-bottom: 3px solid #EBEAED;
+  cursor: pointer;
 }
 #FOUR .form .choice__text:nth-child(1) {
   border-bottom: 3px solid #000000;
@@ -107,7 +110,28 @@
   border-radius: 40px;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 #FOUR .form .btn:nth-child(5) {
   background-color: #1DA1F2;
+}
+
+#FIVE {
+  background-color: #21005D;
+}
+#FIVE .header {
+  color: #FFFFFF;
+  font-size: 46px;
+}
+#FIVE .card {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+}
+#FIVE .card__text:nth-child(1) {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 30px;
+}
+#FIVE .card__text:nth-child(2) {
+  color: #AAAAAA;
 }
