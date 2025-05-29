@@ -135,3 +135,36 @@
 #FIVE .card__text:nth-child(2) {
   color: #AAAAAA;
 }
+
+#SIX {
+  background-image: url(../img/backgrounds/bg4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(47, 24, 147);
+}
+#SIX .header__text {
+  color: #FFFFFF;
+}
+#SIX .header__text:nth-child(1) {
+  font-size: 70px;
+  font-weight: bold;
+}
+#SIX .header__text:nth-child(2) {
+  font-size: 27px;
+}
+#SIX .btn:nth-child(1) {
+  background-color: #EA3223;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#SIX .btn:nth-child(2) {
+  background-color: #25DAC5;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

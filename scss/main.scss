@@ -130,3 +130,36 @@
         &__text:nth-child(2) { color: #AAAAAA; }
     }
 }
+
+#SIX {
+    background-image: url(../img/backgrounds/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(47, 24, 147, 100%);
+
+    .header {
+        &__text { color: #FFFFFF; }
+
+        &__text:nth-child(1) { font-size: 70px; font-weight: bold; }
+
+        &__text:nth-child(2) { font-size: 27px; }
+    }
+
+    .btn:nth-child(1) {
+        background-color: #EA3223;
+        border-radius: 40px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .btn:nth-child(2) {
+        background-color: #25DAC5;
+        color: #FFFFFF;
+        font-size: 20px;
+        border-radius: 40px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
