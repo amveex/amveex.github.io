@@ -168,3 +168,30 @@
   outline: none;
   cursor: pointer;
 }
+
+#SEVEN {
+  background-color: #21005D;
+}
+#SEVEN .header {
+  color: #FFFFFF;
+}
+#SEVEN .header__text {
+  font-size: 40px;
+}
+#SEVEN .header .btn {
+  font-size: 20px;
+  border-radius: 40px;
+  border: 1px solid #FFFFFF;
+  outline: none;
+  cursor: pointer;
+}
+#SEVEN .card {
+  color: #FFFFFF;
+}
+#SEVEN .card > *:nth-child(2) {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+#SEVEN .card > *:nth-child(3) {
+  font-size: 20px;
+}

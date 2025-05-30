@@ -124,7 +124,7 @@ html {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
-  padding: 0px 175px;
+  padding: 0px 13vw;
 }
 #FIVE .wrap {
   display: grid;
@@ -179,4 +179,37 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#SEVEN {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#SEVEN .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 520px;
+}
+#SEVEN .header .btn {
+  padding: 10px 20px;
+}
+#SEVEN .wrap {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+#SEVEN .wrap .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+#SEVEN .wrap .card > *:nth-child(1) {
+  width: 420px;
+  height: 230px;
 }

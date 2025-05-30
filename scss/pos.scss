@@ -127,7 +127,7 @@ html { scroll-snap-type: y mandatory; }
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    padding: 0px 175px;
+    padding: 0px 13vw;
 
     .wrap {
         display: grid;
@@ -188,6 +188,41 @@ html { scroll-snap-type: y mandatory; }
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+    }
+}
+
+#SEVEN {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 520px;
+
+        .btn {
+            padding: 10px 20px;
+        }
+    }
+
+    .wrap {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+
+            & > *:nth-child(1) { width: 420px; height: 230px; }
         }
     }
 }
