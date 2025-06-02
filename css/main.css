@@ -195,3 +195,24 @@
 #SEVEN .card > *:nth-child(3) {
   font-size: 20px;
 }
+
+#EIGHT {
+  background-color: #21005D;
+  color: #FFFFFF;
+}
+#EIGHT .header__text:nth-child(1) {
+  font-size: 40px;
+}
+#EIGHT .header__text:nth-child(2) {
+  font-size: 24px;
+  font-weight: lighter;
+}
+#EIGHT .card__text:nth-child(2) {
+  font-size: 20px;
+}
+#EIGHT .card__text:nth-child(3) {
+  font-weight: lighter;
+}
+#EIGHT .card__icon {
+  cursor: pointer;
+}
