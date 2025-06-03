@@ -216,3 +216,32 @@
 #EIGHT .card__icon {
   cursor: pointer;
 }
+
+#NINE {
+  background-image: url(../img/backgrounds/bg5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(47, 24, 147);
+  color: #FFFFFF;
+}
+#NINE .header__text:nth-child(1) {
+  font-size: 40px;
+}
+#NINE .header__text:nth-child(2) {
+  font-size: 23px;
+}
+#NINE .contacts {
+  font-weight: lighter;
+}
+#NINE .form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+#NINE .form .btn {
+  background-color: #25DAC5;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}

@@ -244,3 +244,76 @@ html {
   display: flex;
   gap: 20px;
 }
+
+#NINE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#NINE .wrap {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#NINE .wrap .header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#NINE .wrap .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+#NINE .wrap .contacts__text {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+#NINE .wrap .contacts__text:nth-child(3) {
+  width: 55%;
+}
+#NINE .form {
+  display: grid;
+  justify-items: flex-start;
+  align-items: flex-start;
+  row-gap: 30px;
+  padding: 40px;
+}
+#NINE .form__item:nth-child(1) {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  align-self: center;
+}
+#NINE .form__item:nth-child(2) {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  justify-self: flex-end;
+  align-self: center;
+}
+#NINE .form__item:nth-child(3) {
+  grid-row-start: 2;
+  grid-column-start: span 2;
+  width: 100%;
+}
+#NINE .form__item:nth-child(4) {
+  grid-row-start: 3;
+  grid-column-start: span 2;
+  width: 100%;
+  height: 50px;
+}
+#NINE .form__item:nth-child(5) {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  align-self: center;
+  justify-self: flex-start;
+}
+#NINE .form__item:nth-child(6) {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  align-self: center;
+  justify-self: flex-end;
+}
