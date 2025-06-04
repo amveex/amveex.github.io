@@ -24,12 +24,12 @@ html {
 #ONE .info {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   text-align: center;
-  width: 50%;
+  gap: 30px;
+  width: 60%;
 }
 #ONE .btn {
-  padding: 20px 40px;
+  padding: 15px 40px;
 }
 
 #TWO {
@@ -40,9 +40,9 @@ html {
 #TWO .info {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  width: 55%;
   text-align: center;
+  gap: 50px;
+  width: 70%;
 }
 
 #THREE {
@@ -50,12 +50,13 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
   position: relative;
 }
 #THREE .imgmac {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -30px;
   transform: translateY(-50%);
 }
 #THREE .title {
@@ -63,14 +64,11 @@ html {
   flex-direction: column;
   gap: 25px;
   width: 40%;
-  margin-left: 10%;
-  margin-bottom: 5%;
 }
 #THREE .wrap {
   display: flex;
   gap: 50px;
   width: 40%;
-  margin-left: 10%;
 }
 #THREE .wrap .info {
   display: flex;
@@ -85,17 +83,17 @@ html {
   align-items: center;
 }
 #FOUR .title {
-  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  width: 30%;
 }
 #FOUR .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  padding: 150px 75px 150px 75px;
+  padding: 150px 75px;
   position: relative;
 }
 #FOUR .form .choice {
@@ -124,7 +122,7 @@ html {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
-  padding: 0px 13vw;
+  padding: 0px 15%;
 }
 #FIVE .wrap {
   display: grid;
@@ -136,8 +134,8 @@ html {
   display: flex;
   align-items: flex-start;
   gap: 30px;
-  padding: 30px;
-  height: 225px;
+  padding: 20px;
+  height: 250px;
 }
 #FIVE .wrap .card__wrap {
   display: flex;
@@ -156,11 +154,16 @@ html {
 #SIX .header {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   text-align: center;
+  gap: 50px;
+}
+#SIX .header__text {
+  display: flex;
+  flex-direction: column;
 }
 #SIX .wrap {
   display: flex;
+  align-items: center;
   gap: 25px;
 }
 #SIX .wrap .btn:nth-child(1) {
@@ -174,8 +177,7 @@ html {
   transform: translate(-40%, -50%);
 }
 #SIX .wrap .btn:nth-child(2) {
-  width: 200px;
-  padding: 15px 20px;
+  padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +194,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 520px;
+  gap: 500px;
 }
 #SEVEN .header .btn {
   padding: 10px 20px;
@@ -206,10 +208,10 @@ html {
 #SEVEN .wrap .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
-  text-align: center;
 }
-#SEVEN .wrap .card > *:nth-child(1) {
+#SEVEN .wrap .card__img {
   width: 420px;
   height: 230px;
 }
@@ -219,20 +221,20 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 30px;
   padding-left: 150px;
 }
 #EIGHT .header {
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 #EIGHT .wrap {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
+  grid-gap: 60px;
 }
 #EIGHT .wrap .card {
   display: flex;
@@ -252,7 +254,7 @@ html {
   gap: 50px;
 }
 #NINE .wrap {
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -274,7 +276,7 @@ html {
   gap: 10px;
 }
 #NINE .wrap .contacts__text:nth-child(3) {
-  width: 55%;
+  width: 60%;
 }
 #NINE .form {
   display: grid;
@@ -285,45 +287,53 @@ html {
        column-gap: 50px;
   padding: 40px;
 }
-#NINE .form .input {
-  padding: 10px 15px;
-}
-#NINE .form__item:nth-child(1) {
+#NINE .form__wrap:nth-child(1) {
   grid-row-start: 1;
   grid-column-start: 1;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-#NINE .form__item:nth-child(2) {
+#NINE .form__wrap:nth-child(2) {
   grid-row-start: 1;
   grid-column-start: 2;
   justify-self: flex-end;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-#NINE .form__item:nth-child(3) {
+#NINE .form__wrap:nth-child(3) {
   grid-row-start: 2;
   grid-column-start: span 2;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-#NINE .form__item:nth-child(4) {
+#NINE .form__wrap:nth-child(4) {
   grid-row-start: 3;
   grid-column-start: span 2;
   width: 100%;
-  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-#NINE .form__item:nth-child(5) {
+#NINE .form__wrap:nth-child(5) {
   grid-row-start: 4;
-  grid-column-start: 1;
+  grid-column-start: span 2;
   justify-self: flex-start;
   align-self: center;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-#NINE .form__item:nth-child(6) {
-  grid-row-start: 4;
-  grid-column-start: 2;
-  justify-self: flex-end;
-  align-self: center;
-  padding: 10px 30px;
+#NINE .form .wrapcheck {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 #TEN {
@@ -349,7 +359,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 50px;
+  padding: 50px 75px;
 }
 #TEN .wrap .card__text:nth-child(2) {
   display: flex;

@@ -3,14 +3,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
+  color: #FFFFFF;
 }
 #ONE .navbar__link {
-  color: #FFFFFF;
   font-size: 24px;
   cursor: pointer;
-}
-#ONE .info__text {
-  color: #FFFFFF;
 }
 #ONE .info__text:nth-child(1) {
   font-size: 72px;
@@ -21,7 +18,6 @@
 }
 #ONE .btn {
   background-color: #482BE7;
-  color: #FFFFFF;
   font-size: 24px;
   border-radius: 40px;
   border: none;
@@ -34,8 +30,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
-}
-#TWO .info__text {
   color: #FFFFFF;
 }
 #TWO .info__text:nth-child(1) {
@@ -55,8 +49,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
-}
-#THREE .title__text {
   color: #FFFFFF;
 }
 #THREE .title__text:nth-child(1) {
@@ -66,17 +58,12 @@
 #THREE .title__text:nth-child(2) {
   font-size: 22px;
 }
-#THREE .info__text {
-  color: #FFFFFF;
-}
 
 #FOUR {
   background-image: url(../img/backgrounds/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
-}
-#FOUR .title__text {
   color: #FFFFFF;
 }
 #FOUR .title__text:nth-child(1) {
@@ -92,11 +79,14 @@
   border-radius: 10px;
 }
 #FOUR .form .choice__text {
-  border-bottom: 3px solid #EBEAED;
   cursor: pointer;
+  color: #000000;
 }
 #FOUR .form .choice__text:nth-child(1) {
   border-bottom: 3px solid #000000;
+}
+#FOUR .form .choice__text:nth-child(2) {
+  border-bottom: 3px solid #EBEAED;
 }
 #FOUR .form .input {
   border-radius: 30px;
@@ -105,7 +95,6 @@
 }
 #FOUR .form .btn {
   background-color: #25DAC5;
-  color: #FFFFFF;
   font-size: 20px;
   border-radius: 40px;
   border: none;
@@ -118,9 +107,9 @@
 
 #FIVE {
   background-color: #21005D;
+  color: #FFFFFF;
 }
 #FIVE .header {
-  color: #FFFFFF;
   font-size: 46px;
 }
 #FIVE .card {
@@ -128,9 +117,8 @@
   border-radius: 15px;
 }
 #FIVE .card__text:nth-child(1) {
-  color: #FFFFFF;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
 }
 #FIVE .card__text:nth-child(2) {
   color: #AAAAAA;
@@ -141,8 +129,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(47, 24, 147);
-}
-#SIX .header__text {
   color: #FFFFFF;
 }
 #SIX .header__text:nth-child(1) {
@@ -161,7 +147,6 @@
 }
 #SIX .btn:nth-child(2) {
   background-color: #25DAC5;
-  color: #FFFFFF;
   font-size: 20px;
   border-radius: 40px;
   border: none;
@@ -171,8 +156,6 @@
 
 #SEVEN {
   background-color: #21005D;
-}
-#SEVEN .header {
   color: #FFFFFF;
 }
 #SEVEN .header__text {
@@ -181,18 +164,15 @@
 #SEVEN .header .btn {
   font-size: 20px;
   border-radius: 40px;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   outline: none;
   cursor: pointer;
 }
-#SEVEN .card {
-  color: #FFFFFF;
-}
-#SEVEN .card > *:nth-child(2) {
+#SEVEN .card__text:nth-child(2) {
   font-size: 14px;
   letter-spacing: 2px;
 }
-#SEVEN .card > *:nth-child(3) {
+#SEVEN .card__text:nth-child(3) {
   font-size: 20px;
 }
 
@@ -236,25 +216,35 @@
 #NINE .form {
   background-color: #FFFFFF;
   border-radius: 10px;
+  color: #000000;
+}
+#NINE .form__wrap label {
+  color: #1E0E62;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#NINE .form__wrap .msg {
+  border-radius: 10px !important;
+  height: 200px;
 }
 #NINE .form .input {
   background: transparent;
   border: 1px solid #BDBDBD;
-  border-radius: 40px;
+  border-radius: 20px;
   outline: none;
   resize: none;
   font-size: 16px;
-}
-#NINE .form__item:nth-child(4) {
-  border-radius: 10px;
+  padding: 10px 15px;
 }
 #NINE .form .btn {
   font-size: 20px;
+  color: #FFFFFF;
   background-color: #25DAC5;
   border-radius: 40px;
   border: none;
   outline: none;
   cursor: pointer;
+  padding: 5px 25px;
 }
 
 #TEN {
@@ -285,8 +275,6 @@
 }
 #TEN .card__list {
   list-style-type: none;
-}
-#TEN .card__feature {
   list-style-image: url(../img/icons/icon6.png);
 }
 #TEN .card__disabled {

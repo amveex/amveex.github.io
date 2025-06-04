@@ -3,26 +3,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(47, 24, 147, 100%);
+    color: #FFFFFF;
 
     .navbar {
         &__link {
-            color: #FFFFFF;
             font-size: 24px;
             cursor: pointer;
         }
     }
 
     .info {
-        &__text { color: #FFFFFF; }
+        &__text:nth-child(1) {
+            font-size: 72px;
+            font-weight: bold;
+        }
 
-        &__text:nth-child(1) { font-size: 72px; font-weight: bold; }
-
-        &__text:nth-child(2) { font-size: 24px; }
+        &__text:nth-child(2) {
+            font-size: 24px;
+        }
     }
 
     .btn {
         background-color: #482BE7;
-        color: #FFFFFF;
         font-size: 24px;
         border-radius: 40px;
         border: none;
@@ -36,15 +38,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(47, 24, 147, 100%);
+    color: #FFFFFF;
 
     .info {
-        &__text { color: #FFFFFF; }
+        &__text:nth-child(1) {
+            font-size: 20px;
+        }
 
-        &__text:nth-child(1) { font-size: 20px; }
+        &__text:nth-child(2) {
+            font-size: 58px;
+            font-weight: bold;
+        }
 
-        &__text:nth-child(2) { font-size: 58px; font-weight: bold; }
-
-        &__text:nth-child(3) { color: #AAAAAA; font-size: 24px; }
+        &__text:nth-child(3) {
+            color: #AAAAAA;
+            font-size: 24px;
+        }
     }
 }
 
@@ -53,16 +62,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(47, 24, 147, 100%);
+    color: #FFFFFF;
 
     .title {
-        &__text { color: #FFFFFF; }
+        &__text:nth-child(1) {
+            font-size: 42px;
+            font-weight: bold;
+        }
 
-        &__text:nth-child(1) { font-size: 42px; font-weight: bold; }
-
-        &__text:nth-child(2) { font-size: 22px; }
+        &__text:nth-child(2) {
+            font-size: 22px;
+        }
     }
-
-    .info { &__text { color: #FFFFFF; }}
 }
 
 #FOUR {
@@ -70,13 +81,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(47, 24, 147, 100%);
+    color: #FFFFFF;
 
     .title {
-        &__text { color: #FFFFFF; }
+        &__text:nth-child(1) {
+            font-size: 50px;
+            font-weight: bold;
+        }
 
-        &__text:nth-child(1) { font-size: 50px; font-weight: bold; }
-
-        &__text:nth-child(2) { font-size: 20px; line-height: 35px; }
+        &__text:nth-child(2) {
+            font-size: 20px;
+            line-height: 35px;
+        }
     }
 
     .form {
@@ -85,11 +101,17 @@
 
         .choice {
             &__text {
-                border-bottom: 3px solid #EBEAED;
                 cursor: pointer;
+                color: #000000;
             }
 
-            &__text:nth-child(1) { border-bottom: 3px solid #000000; }
+            &__text:nth-child(1) {
+                border-bottom: 3px solid #000000;
+            }
+
+            &__text:nth-child(2) {
+                border-bottom: 3px solid #EBEAED;
+            }
         }
 
         .input {
@@ -100,7 +122,6 @@
 
         .btn {
             background-color: #25DAC5;
-            color: #FFFFFF;
             font-size: 20px;
             border-radius: 40px;
             border: none;
@@ -108,26 +129,32 @@
             cursor: pointer;
         }
 
-        .btn:nth-child(5) { background-color: #1DA1F2; }
+        .btn:nth-child(5) {
+            background-color: #1DA1F2;
+        }
     }
 }
 
 #FIVE {
     background-color: #21005D;
+    color: #FFFFFF;
 
-    .header { color: #FFFFFF; font-size: 46px; }
+    .header {
+        font-size: 46px;
+    }
     
     .card {
         border: 2px solid rgba(255, 255, 255, 0.15);
         border-radius: 15px;
 
         &__text:nth-child(1) {
-            color: #FFFFFF;
             font-size: 18px;
-            line-height: 30px;
+            line-height: 25px;
         }
 
-        &__text:nth-child(2) { color: #AAAAAA; }
+        &__text:nth-child(2) {
+            color: #AAAAAA;
+        }
     }
 }
 
@@ -136,13 +163,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(47, 24, 147, 100%);
+    color: #FFFFFF;
 
     .header {
-        &__text { color: #FFFFFF; }
+        &__text:nth-child(1) {
+            font-size: 70px;
+            font-weight: bold;
+        }
 
-        &__text:nth-child(1) { font-size: 70px; font-weight: bold; }
-
-        &__text:nth-child(2) { font-size: 27px; }
+        &__text:nth-child(2) {
+            font-size: 27px;
+        }
     }
 
     .btn:nth-child(1) {
@@ -155,7 +186,6 @@
 
     .btn:nth-child(2) {
         background-color: #25DAC5;
-        color: #FFFFFF;
         font-size: 20px;
         border-radius: 40px;
         border: none;
@@ -166,10 +196,9 @@
 
 #SEVEN {
     background-color: #21005D;
+    color: #FFFFFF;
 
     .header {
-        color: #FFFFFF;
-        
         &__text {
             font-size: 40px;
         }
@@ -177,18 +206,21 @@
         .btn {
             font-size: 20px;
             border-radius: 40px;
-            border: 1px solid #FFFFFF;
+            border: 2px solid #FFFFFF;
             outline: none;
             cursor: pointer;
         }
     }
 
     .card {
-        color: #FFFFFF;
+        &__text:nth-child(2) {
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
 
-        & > *:nth-child(2) { font-size: 14px; letter-spacing: 2px; }
-
-        & > *:nth-child(3) { font-size: 20px; }
+        &__text:nth-child(3) {
+            font-size: 20px;
+        }
     }
 }
 
@@ -197,17 +229,28 @@
     color: #FFFFFF;
 
     .header {
-        &__text:nth-child(1) { font-size: 40px; }
+        &__text:nth-child(1) {
+            font-size: 40px;
+        }
 
-        &__text:nth-child(2) { font-size: 24px; font-weight: lighter; }
+        &__text:nth-child(2) {
+            font-size: 24px;
+            font-weight: lighter;
+        }
     }
 
     .card {
-        &__text:nth-child(2) { font-size: 20px; }
+        &__text:nth-child(2) {
+            font-size: 20px;
+        }
 
-        &__text:nth-child(3) { font-weight: lighter; }
+        &__text:nth-child(3) {
+            font-weight: lighter;
+        }
 
-        &__icon { cursor: pointer; }
+        &__icon {
+            cursor: pointer;
+        }
     }
 }
 
@@ -219,35 +262,54 @@
     color: #FFFFFF;
 
     .header {
-        &__text:nth-child(1) { font-size: 40px; }
+        &__text:nth-child(1) {
+            font-size: 40px;
+        }
 
-        &__text:nth-child(2) { font-size: 23px; }
+        &__text:nth-child(2) {
+            font-size: 23px;
+        }
     }
 
-    .contacts { font-weight: lighter; }
+    .contacts {
+        font-weight: lighter;
+    }
 
     .form {
         background-color: #FFFFFF;
         border-radius: 10px;
+        color: #000000;
+
+        &__wrap label {
+            color: #1E0E62;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        &__wrap .msg {
+            border-radius: 10px !important;
+            height: 200px;
+        }
 
         .input {
             background: transparent;
             border: 1px solid #BDBDBD;
-            border-radius: 40px;
+            border-radius: 20px;
             outline: none;
             resize: none;
             font-size: 16px;
+            padding: 10px 15px;
         }
-
-        &__item:nth-child(4) { border-radius: 10px; }
 
         .btn {
             font-size: 20px;
+            color: #FFFFFF;
             background-color: #25DAC5;
             border-radius: 40px;
             border: none;
             outline: none;
             cursor: pointer;
+            padding: 5px 25px;
         }
     }
 }
@@ -260,26 +322,40 @@
     color: #FFFFFF;
 
     .header {
-        &__text:nth-child(1) { font-size: 40px; }
+        &__text:nth-child(1) {
+            font-size: 40px;
+        }
 
-        &__text:nth-child(2) { font-size: 20px; }
+        &__text:nth-child(2) {
+            font-size: 20px;
+        }
     }
 
     .card {
         border: 2px solid #ffffff40;
         border-radius: 10px;
 
-        &__text:nth-child(1) { font-size: 20px; }
+        &__text:nth-child(1) {
+            font-size: 20px;
+        }
 
-        &__text:nth-child(2) { font-size: 50px; }
+        &__text:nth-child(2) {
+            font-size: 50px;
+        }
 
-        &__text > span { font-size: 16px; }
+        &__text > span {
+            font-size: 16px;
+        }
 
-        &__list { list-style-type: none; }
+        &__list {
+            list-style-type: none;
+            list-style-image: url(../img/icons/icon6.png);
+        }
 
-        &__feature { list-style-image: url(../img/icons/icon6.png); }
-
-        &__disabled { color: #ffffff40; list-style-image: none; }
+        &__disabled {
+            color: #ffffff40;
+            list-style-image: none;
+        }
 
         .btn {
             font-size: 20px;
