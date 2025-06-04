@@ -251,3 +251,49 @@
         }
     }
 }
+
+#TEN {
+    background-image: url(../img/backgrounds/bg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(47, 24, 147, 100%);
+    color: #FFFFFF;
+
+    .header {
+        &__text:nth-child(1) { font-size: 40px; }
+
+        &__text:nth-child(2) { font-size: 20px; }
+    }
+
+    .card {
+        border: 2px solid #ffffff40;
+        border-radius: 10px;
+
+        &__text:nth-child(1) { font-size: 20px; }
+
+        &__text:nth-child(2) { font-size: 50px; }
+
+        &__text > span { font-size: 16px; }
+
+        &__list { list-style-type: none; }
+
+        &__feature { list-style-image: url(../img/icons/icon6.png); }
+
+        &__disabled { color: #ffffff40; list-style-image: none; }
+
+        .btn {
+            font-size: 20px;
+            background-color: transparent;
+            border: 2px solid #ffffff40;
+            border-radius: 40px;
+            outline: none;
+            cursor: pointer;
+            transition-duration: 0.25s;
+
+            &:hover {
+                background-color: #E93A7D;
+                border: 2px solid transparent;
+            }
+        }
+    }
+}

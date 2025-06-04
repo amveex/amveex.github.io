@@ -256,3 +256,53 @@
   outline: none;
   cursor: pointer;
 }
+
+#TEN {
+  background-image: url(../img/backgrounds/bg6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(47, 24, 147);
+  color: #FFFFFF;
+}
+#TEN .header__text:nth-child(1) {
+  font-size: 40px;
+}
+#TEN .header__text:nth-child(2) {
+  font-size: 20px;
+}
+#TEN .card {
+  border: 2px solid rgba(255, 255, 255, 0.2509803922);
+  border-radius: 10px;
+}
+#TEN .card__text:nth-child(1) {
+  font-size: 20px;
+}
+#TEN .card__text:nth-child(2) {
+  font-size: 50px;
+}
+#TEN .card__text > span {
+  font-size: 16px;
+}
+#TEN .card__list {
+  list-style-type: none;
+}
+#TEN .card__feature {
+  list-style-image: url(../img/icons/icon6.png);
+}
+#TEN .card__disabled {
+  color: rgba(255, 255, 255, 0.2509803922);
+  list-style-image: none;
+}
+#TEN .card .btn {
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2509803922);
+  border-radius: 40px;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
+#TEN .card .btn:hover {
+  background-color: #E93A7D;
+  border: 2px solid transparent;
+}
