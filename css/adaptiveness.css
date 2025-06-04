@@ -1,0 +1,9 @@
+html {
+  background-color: #000000;
+}
+
+section {
+  max-width: 2600px;
+  min-width: 1360px;
+  margin: 0 auto;
+}
