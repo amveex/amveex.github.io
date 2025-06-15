@@ -1,0 +1,16 @@
+.title__heading {
+  font-size: 3rem;
+}
+.title__text {
+  font-size: 1.5rem;
+}
+
+.form__forgot span {
+  color: #1E4AE9;
+  cursor: pointer;
+}
+
+.register span {
+  color: #1E4AE9;
+  cursor: pointer;
+}

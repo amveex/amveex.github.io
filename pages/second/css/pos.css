@@ -1,0 +1,84 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  gap: 250px;
+}
+#container .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+#container .left .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#container .left .title__heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#container .left .title__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+#container .left .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#container .left .form__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#container .left .form__forgot {
+  text-align: right;
+}
+#container .left .line {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#container .left .line::after, #container .left .line::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #E3EBEC;
+}
+#container .left .links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#container .left .links__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#container .left .register {
+  width: 100%;
+  text-align: center;
+}

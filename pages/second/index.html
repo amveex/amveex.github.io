@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">    
+    
+    <!-- styles -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blocks.css">
+
     <title>untitled</title>
+
 </head>
 <body>
     
+    <div id="container">
+
+        <div class="left">
+
+            <div class="title">
+                <h1 class="title__heading">Welcome Back <img src="img/wave.png"></h1>
+                <p class="title__text">Today is a new day. It's your day. You shape it.<span></span>Sign in to start managing your projects.</p>
+            </div>
+
+            <form class="form">
+                <div class="form__wrap">
+                    <label for="mail">Email</label>
+                    <input id="mail" class="input" type="email" placeholder="Example@email.com">
+                </div>
+                <div class="form__wrap">
+                    <label for="pass">Password</label>
+                    <input id="pass" class="input" type="password" placeholder="At least 8 characters">
+                </div>
+                <p class="form__forgot"><span>Forgot Password?</span></p>
+                <button class="form__button button button--dark">Sign in</button>
+            </form>
+
+            <p class="line">Or</p>
+
+            <div class="links">
+                <button class="links__button button button--gray">Sign in with<img src="img/google.png"></button>
+                <button class="links__button button button--gray">Sign in with<img src="img/facebook.png"></button>
+            </div>
+
+            <p class="register">Don't you have an account? <span>Sign up</span></p>
+
+        </div>
+
+        <div class="right">
+
+            <img class="art" src="img/art.png">
+
+        </div>
+
+    </div>
+
 </body>
 </html>

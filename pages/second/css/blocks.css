@@ -1,0 +1,35 @@
+.input {
+  background: transparent;
+  border: 1px solid #D4D7E3;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 1rem;
+  font-family: "Roboto";
+  outline: none;
+}
+.input::-moz-placeholder {
+  color: #8897AD;
+}
+.input::placeholder {
+  color: #8897AD;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Roboto";
+  outline: none;
+  cursor: pointer;
+}
+.button--dark {
+  background: #162D3A;
+  color: #FFFFFF;
+}
+.button--gray {
+  background: #E3EBEC;
+  color: #000000;
+}
