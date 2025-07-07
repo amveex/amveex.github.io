@@ -1,0 +1,18 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 130px 43px 120px;
+    position: fixed;
+    width: inherit;
+
+    &__nav {
+        display: flex;
+        gap: 70px;
+    }
+}

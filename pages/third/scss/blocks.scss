@@ -1,0 +1,33 @@
+.logo {
+    &__text {
+        font-size: 34px;
+        font-weight: 700;
+        color: #054C73;
+        text-decoration: none;
+        cursor: pointer;
+
+        &--active {
+            transition-duration: 0.25s;
+            &:hover {
+                text-shadow: 0 0 30px #054C73;
+            }
+        }
+    }
+}
+
+.nav {
+    &__link {
+        font-size: 14px;
+        font-weight: 600;
+        color: #333333;
+        text-decoration: none;
+        cursor: pointer;
+
+        &--active {
+            transition-duration: 0.25s;
+            &:hover {
+                text-shadow: 0 0 15px #333333;
+            }
+        }
+    }
+}
