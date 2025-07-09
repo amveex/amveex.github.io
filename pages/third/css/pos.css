@@ -1,3 +1,7 @@
+html {
+  position: relative;
+}
+
 body {
   width: 1440px;
   margin: 0 auto;
@@ -8,10 +12,30 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 43px 130px 43px 120px;
-  position: fixed;
   width: inherit;
+  position: absolute;
+  top: 0;
 }
-.header__nav {
+.header .nav {
   display: flex;
   gap: 70px;
+}
+
+.one {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 122px;
+  padding-right: 90px;
+  height: 750px;
+}
+.one .buyBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  padding: 37px 96px 41px 39px;
+}
+.one .buyBlock__button {
+  padding: 25px 72px;
 }

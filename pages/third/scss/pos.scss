@@ -1,3 +1,7 @@
+html {
+    position: relative;
+}
+
 body {
     width: 1440px;
     margin: 0 auto;
@@ -8,11 +12,33 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 43px 130px 43px 120px;
-    position: fixed;
     width: inherit;
+    position: absolute;
+    top: 0;
 
-    &__nav {
+    .nav {
         display: flex;
         gap: 70px;
+    }
+}
+
+.one {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 122px;
+    padding-right: 90px;
+    height: 750px;
+
+    .buyBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 23px;
+        padding: 37px 96px 41px 39px;
+
+        &__button {
+            padding: 25px 72px;
+        }
     }
 }

@@ -4,4 +4,69 @@ body {
 
 .header {
     background-color: #FFFFFF;
+
+    .logo {
+        &__text {
+            font-size: 34px;
+            font-weight: 700;
+            color: #054C73;
+            text-decoration: none;
+            cursor: pointer;
+            transition-duration: 0.25s;
+
+            &:hover {
+                text-shadow: 0 0 30px #054C73;
+            }
+        }
+    }
+
+    .nav {
+        &__link {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            text-decoration: none;
+            cursor: pointer;
+            transition-duration: 0.25s;
+            
+            &:hover {
+                text-shadow: 0 0 15px #333333;
+            }
+        }
+    }
+}
+
+.one {
+    background-image: url(../img/backgrounds/bg.png);
+    background-repeat: no-repeat;
+
+    .buyBlock {
+        background-color: #DFE9F4;
+        border-radius: 10px;
+    
+        &__heading {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            color: #333333;
+        }
+
+        &__title {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 65px;
+            color: #054C73;
+        }
+
+        &__text {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 39px;
+            color: #333333;
+        }
+
+        &__button {
+            border-radius: 50px;
+        }
+    }
 }
