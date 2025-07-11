@@ -3,7 +3,31 @@
   font-weight: 700;
   color: #FFFFFF;
   background-color: #054C73;
+  padding: 25px 72px;
+  border-radius: 50px;
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.option__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.option__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+.option__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
 }

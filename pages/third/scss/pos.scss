@@ -36,9 +36,13 @@ body {
         align-items: flex-start;
         gap: 23px;
         padding: 37px 96px 41px 39px;
-
-        &__button {
-            padding: 25px 72px;
-        }
     }
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 110px;
+    padding: 46px 100px 49px 107px;
 }

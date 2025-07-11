@@ -54,6 +54,7 @@ body {
   line-height: 39px;
   color: #333333;
 }
-.one .buyBlock__button {
-  border-radius: 50px;
+
+.benefits {
+  background-color: #F2F5FF;
 }
