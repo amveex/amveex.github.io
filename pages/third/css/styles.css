@@ -58,3 +58,13 @@ body {
 .benefits {
   background-color: #F2F5FF;
 }
+
+.two {
+  background-color: #FFFFFF;
+}
+.two .gallery__img:nth-child(1) {
+  border-top-left-radius: 70px;
+}
+.two .gallery__img:nth-child(3) {
+  border-bottom-right-radius: 70px;
+}
