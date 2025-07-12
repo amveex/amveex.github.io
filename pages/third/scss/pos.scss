@@ -67,3 +67,28 @@ body {
         }
     }
 }
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 61px 0;
+    position: relative;
+
+    .learnBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        position: relative;
+        top: -9px;
+        left: -42px;
+
+        &__button {
+            padding: 25px 57px;
+            position: relative;
+            top: 15px;
+        }
+    }
+}

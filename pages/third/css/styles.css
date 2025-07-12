@@ -68,3 +68,21 @@ body {
 .two .gallery__img:nth-child(3) {
   border-bottom-right-radius: 70px;
 }
+
+.three {
+  background-color: #F2F5FF;
+}
+.three .learnBlock__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333333;
+}
+.three .learnBlock__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #666666;
+}
+.three__img {
+  border-radius: 60px 10px;
+}

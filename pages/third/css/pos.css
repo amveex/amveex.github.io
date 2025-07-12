@@ -63,3 +63,26 @@ body {
   position: relative;
   top: 38px;
 }
+
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 61px 0;
+  position: relative;
+}
+.three .learnBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: -9px;
+  left: -42px;
+}
+.three .learnBlock__button {
+  padding: 25px 57px;
+  position: relative;
+  top: 15px;
+}
