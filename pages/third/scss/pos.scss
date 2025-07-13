@@ -92,3 +92,24 @@ body {
         }
     }
 }
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+    padding: 60px 0;
+
+    .gallery {
+        display: flex;
+        gap: 21px;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 29px;
+        }
+    }
+}

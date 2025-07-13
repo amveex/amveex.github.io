@@ -86,3 +86,22 @@ body {
   position: relative;
   top: 15px;
 }
+
+.four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 57px;
+  padding: 60px 0;
+}
+.four .gallery {
+  display: flex;
+  gap: 21px;
+}
+.four .gallery__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+}

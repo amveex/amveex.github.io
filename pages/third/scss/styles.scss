@@ -107,3 +107,20 @@ body {
         border-radius: 60px 10px;
     }
 }
+
+.four {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D7D6D6;
+
+    .gallery {
+        &__img {
+            border-radius: 10px;
+        }
+
+        &__hint {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333333;
+        }
+    }
+}
