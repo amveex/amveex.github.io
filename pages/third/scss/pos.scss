@@ -74,21 +74,15 @@ body {
     align-items: center;
     gap: 48px;
     padding: 61px 0;
-    position: relative;
 
     .learnBlock {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
-        position: relative;
-        top: -9px;
-        left: -42px;
 
         &__button {
             padding: 25px 57px;
-            position: relative;
-            top: 15px;
         }
     }
 }
@@ -110,6 +104,31 @@ body {
             flex-direction: column;
             align-items: center;
             gap: 29px;
+        }
+    }
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+    padding: 60px 0 150px;
+    position: relative;
+
+    .gallery {
+        display: flex;
+        gap: 21px;
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            position: relative;
+            top: -48px;
         }
     }
 }
