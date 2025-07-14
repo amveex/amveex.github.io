@@ -132,3 +132,25 @@ body {
         }
     }
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 63px;
+    padding: 60px 0;
+
+    &__wrap {
+        display: flex;
+        margin-right: 50px;
+    }
+
+    &__input {
+        padding: 25px;
+        padding-right: 75px;
+    }
+
+    &__button {
+        padding: 27px 45px;
+    }
+}

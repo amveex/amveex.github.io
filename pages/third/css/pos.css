@@ -122,3 +122,22 @@ body {
   position: relative;
   top: -48px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 63px;
+  padding: 60px 0;
+}
+.form__wrap {
+  display: flex;
+  margin-right: 50px;
+}
+.form__input {
+  padding: 25px;
+  padding-right: 75px;
+}
+.form__button {
+  padding: 27px 45px;
+}

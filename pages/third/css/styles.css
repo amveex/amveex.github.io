@@ -126,3 +126,38 @@ body {
   line-height: 28px;
   color: #666666;
 }
+
+.form {
+  background-color: #F2F5FF;
+}
+.form__input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #FFFFFF;
+  border: 2px solid #054C73;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+.form__input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(1, 28, 66, 0.3);
+}
+.form__input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(1, 28, 66, 0.3);
+}
+.form__button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #054C73;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
