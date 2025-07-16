@@ -161,3 +161,21 @@ body {
   outline: none;
   cursor: pointer;
 }
+
+.footer {
+  background-color: #03344F;
+}
+.footer__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.footer__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.footer__pics > img {
+  border-radius: 3px;
+}

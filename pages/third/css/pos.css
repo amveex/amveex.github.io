@@ -141,3 +141,25 @@ body {
 .form__button {
   padding: 27px 45px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 75px;
+}
+.footer__wrap:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__wrap:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__pics {
+  display: flex;
+  gap: 20px;
+}

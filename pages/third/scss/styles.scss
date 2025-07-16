@@ -190,3 +190,24 @@ body {
         cursor: pointer;
     }
 }
+
+.footer {
+    background-color: #03344F;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    &__pics > img {
+        border-radius: 3px;
+    }
+}
