@@ -1,0 +1,26 @@
+body {
+  background: var(--black);
+}
+body * {
+  color: var(--white);
+}
+
+.header__name, .header__link {
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.header__name:hover, .header__link:hover {
+  border-bottom: 1px solid var(--yellow);
+  color: var(--yellow);
+}
+.header__name {
+  border: none !important;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.header__link {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
