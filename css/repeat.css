@@ -4,3 +4,15 @@
   --grey: #C7C7C7;
   --yellow: #D3E97A;
 }
+
+.button {
+  background: var(--yellow);
+  color: var(--black);
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}

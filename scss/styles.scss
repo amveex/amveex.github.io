@@ -6,6 +6,7 @@ body {
 .header {
     &__name, &__link {
         border-bottom: 1px solid transparent;
+        color: var(--grey);
         text-decoration: none;
         cursor: pointer;
         transition: 0.2s;
@@ -25,5 +26,27 @@ body {
     &__link {
         font-size: 1.25rem;
         font-weight: 300;
+    }
+}
+
+.home {
+    border-bottom: 1px solid #484848;
+
+    .info {
+        &__title {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+
+        &__text {
+            font-size: 1rem;
+            font-weight: 300;
+            color: var(--grey);
+        }
+    }
+
+    .img {
+        opacity: 0.5;
+        border-radius: 5px;
     }
 }

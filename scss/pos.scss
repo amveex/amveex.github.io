@@ -14,3 +14,23 @@ body {
         gap: 40px;
     }
 }
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 170px;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .img {
+        width: 520px;
+        height: 520px;
+    }
+}
