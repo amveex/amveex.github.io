@@ -34,3 +34,78 @@ body {
         height: 520px;
     }
 }
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 150px;
+    padding: 100px 0 200px;
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 300px;
+
+        .option {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            &__img {
+                width: 685px;
+                height: 415px;
+            }
+
+            &__wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+
+            &__info {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 100%;
+            }
+
+            &__text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 15px;
+            }
+
+            &__links {
+                display: flex;
+                gap: 25px;
+            }
+
+            &__link {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding-bottom: 5px;
+            }
+
+            &__arrow {
+                width: 15px;
+                height: 15px;
+            }
+
+            &__icon {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

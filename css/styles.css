@@ -42,3 +42,42 @@ body * {
   opacity: 0.5;
   border-radius: 5px;
 }
+
+.work {
+  border-bottom: 1px solid #484848;
+}
+.work .heading__title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.work .heading__text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--grey);
+}
+.work .projects .option__img {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+.work .projects .option__img:hover {
+  opacity: 1;
+}
+.work .projects .option__title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.work .projects .option__text {
+  border-bottom: 1px solid #484848;
+}
+.work .projects .option__text span {
+  color: var(--grey);
+}
+.work .projects .option__link {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--yellow);
+  border-bottom: 2px solid var(--yellow);
+}
