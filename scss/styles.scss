@@ -4,6 +4,9 @@ body {
 }
 
 .header {
+    background: var(--black);
+    z-index: 999;
+
     &__name, &__link {
         border-bottom: 1px solid transparent;
         color: var(--grey);

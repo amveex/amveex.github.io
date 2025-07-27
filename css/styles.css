@@ -5,6 +5,10 @@ body * {
   color: var(--white);
 }
 
+.header {
+  background: var(--black);
+  z-index: 999;
+}
 .header__name, .header__link {
   border-bottom: 1px solid transparent;
   color: var(--grey);
