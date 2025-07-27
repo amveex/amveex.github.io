@@ -24,6 +24,7 @@ body * {
   border: none !important;
   font-size: 2.25rem;
   font-weight: 500;
+  font-family: "Bebas Neue";
 }
 .header__link {
   font-size: 1.25rem;
@@ -34,8 +35,9 @@ body * {
   border-bottom: 1px solid #484848;
 }
 .home .info__title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 500;
+  font-family: "Bebas Neue";
 }
 .home .info__text {
   font-size: 1rem;
@@ -51,8 +53,9 @@ body * {
   border-bottom: 1px solid #484848;
 }
 .work .heading__title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 500;
+  font-family: "Bebas Neue";
 }
 .work .heading__text {
   font-size: 1rem;
