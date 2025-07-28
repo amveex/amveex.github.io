@@ -154,3 +154,47 @@ body {
         }
     }
 }
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 0;
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        &__link {
+            padding-bottom: 3px;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding-right: 10%;
+
+        &__row {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        &__input {
+            width: 500px;
+            padding: 15px;
+        }
+
+        &__textarea {
+            width: 500px;
+            height: 200px;
+            padding: 15px;
+        }
+    }
+}

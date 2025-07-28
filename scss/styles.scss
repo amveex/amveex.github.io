@@ -134,3 +134,45 @@ body {
         }
     }
 }
+
+.contact {
+    .heading {
+        &__title {
+            font-size: 4rem;
+            font-weight: 500;
+            font-family: "Bebas Neue";
+        }
+
+        &__text {
+            color: var(--grey);
+        }
+
+        &__link {
+            color: var(--white);
+            border-bottom: 1px solid var(--yellow);
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+    .form {
+        &__label {
+            color: var(--grey);
+            cursor: pointer;
+        }
+
+        &__input,
+        &__textarea {
+            outline: none;
+            border: none;
+            resize: none;
+            background: #1A1A1A;
+            border-radius: 5px;
+            transition: 0.5s;
+
+            &:focus {
+                box-shadow: 0 0 10px var(--white);
+            }
+        }
+    }
+}

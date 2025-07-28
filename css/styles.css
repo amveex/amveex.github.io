@@ -106,3 +106,33 @@ body * {
   font-weight: 300;
   color: var(--grey);
 }
+
+.contact .heading__title {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Bebas Neue";
+}
+.contact .heading__text {
+  color: var(--grey);
+}
+.contact .heading__link {
+  color: var(--white);
+  border-bottom: 1px solid var(--yellow);
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact .form__label {
+  color: var(--grey);
+  cursor: pointer;
+}
+.contact .form__input, .contact .form__textarea {
+  outline: none;
+  border: none;
+  resize: none;
+  background: #1A1A1A;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.contact .form__input:focus, .contact .form__textarea:focus {
+  box-shadow: 0 0 10px var(--white);
+}

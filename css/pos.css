@@ -134,3 +134,41 @@ body {
   align-items: center;
   gap: 20px;
 }
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 0;
+}
+.contact .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.contact .heading__link {
+  padding-bottom: 3px;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  padding-right: 10%;
+}
+.contact .form__row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.contact .form__input {
+  width: 500px;
+  padding: 15px;
+}
+.contact .form__textarea {
+  width: 500px;
+  height: 200px;
+  padding: 15px;
+}
