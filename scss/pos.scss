@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 210px 0 170px;
+    padding: 200px 0 100px;
 
     .info {
         display: flex;
@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 150px;
-    padding: 100px 0 200px;
+    padding: 100px 0;
 
     .heading {
         display: flex;
@@ -87,7 +87,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 20px;
+                gap: 50px;
             }
 
             &__info {
@@ -125,6 +125,32 @@ body {
                 width: 25px;
                 height: 25px;
             }
+        }
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 0;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        &__skills {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 100px;
+        }
+
+        &__row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
         }
     }
 }

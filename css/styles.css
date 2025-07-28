@@ -77,6 +77,7 @@ body * {
 }
 .work .projects .option__text {
   border-bottom: 1px solid #484848;
+  font-weight: 300;
 }
 .work .projects .option__text span {
   color: var(--grey);
@@ -87,4 +88,21 @@ body * {
   font-weight: 500;
   color: var(--yellow);
   border-bottom: 2px solid var(--yellow);
+}
+
+.about {
+  border-bottom: 1px solid #484848;
+}
+.about .heading__title {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Bebas Neue";
+}
+.about .info__title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.about .info__text {
+  font-weight: 300;
+  color: var(--grey);
 }

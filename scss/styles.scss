@@ -93,6 +93,7 @@ body {
 
             &__text {
                 border-bottom: 1px solid #484848;
+                font-weight: 300;
 
                 span {
                     color: var(--grey);
@@ -106,6 +107,30 @@ body {
                 color: var(--yellow);
                 border-bottom: 2px solid var(--yellow);
             }
+        }
+    }
+}
+
+.about {
+    border-bottom: 1px solid #484848;
+
+    .heading {
+        &__title {
+            font-size: 4rem;
+            font-weight: 500;
+            font-family: "Bebas Neue";
+        }
+    }
+
+    .info {
+        &__title {
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        &__text {
+            font-weight: 300;
+            color: var(--grey);
         }
     }
 }
