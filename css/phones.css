@@ -51,7 +51,7 @@ body {
   padding-top: 50px;
 }
 .about .info__row .button {
-  padding: 10px 25px;
+  padding: 7px 14px;
 }
 
 .contact {
@@ -68,4 +68,8 @@ body {
 }
 .contact .form__input, .contact .form__textarea {
   width: 100%;
+}
+
+.hidden {
+  display: none;
 }

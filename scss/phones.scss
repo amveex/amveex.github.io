@@ -60,7 +60,7 @@ body {
 
         &__row {
             .button {
-                padding: 10px 25px;
+                padding: 7px 14px;
             }
         }
     }
@@ -84,4 +84,8 @@ body {
             width: 100%;
         }
     }
+}
+
+.hidden {
+    display: none;
 }
