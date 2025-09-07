@@ -65,3 +65,23 @@ body {
         }
     }
 }
+
+.contact {
+    padding: 50px 0;
+    flex-direction: column;
+    gap: 75px;
+
+    .form {
+        padding: unset;
+        width: 100%;
+
+        &__row {
+            width: 100%;
+        }
+
+        &__input,
+        &__textarea {
+            width: 100%;
+        }
+    }
+}
