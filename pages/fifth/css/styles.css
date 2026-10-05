@@ -1,0 +1,27 @@
+html {
+  background: var(--dark);
+}
+
+.header__logoLink, .header__navLink, .header__tgLink {
+  font-size: 32px;
+  color: var(--white);
+  transition: 0.25s;
+}
+.header__logoLink:hover, .header__navLink:hover, .header__tgLink:hover {
+  text-shadow: 0px 0px 25px var(--white);
+}
+.header__navLink {
+  font-size: 16px;
+}
+
+.one {
+  background-image: url(../img/main.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.one .info__text {
+  color: var(--white);
+  font-size: 100px;
+  line-height: 100px;
+}
