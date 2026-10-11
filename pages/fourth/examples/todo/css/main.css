@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
   height: 100%;
   background: rgb(150, 150, 150);
@@ -27,7 +27,7 @@ body {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 10px;
-  width: 35%;
+  width: 50%;
 }
 .wrap .add {
   border: none;
