@@ -1,0 +1,55 @@
+.fz-l { font-size: 40px !important; }
+.fz-s { font-size: 24px !important; }
+section { padding: 0 20px; }
+
+#ONE {
+    justify-content: center;
+    gap: 75px;
+
+    .info {
+        width: unset;
+        gap: 75px;
+    }
+
+    .navbar { display: none; }
+}
+
+#TWO {
+    .info {
+        width: unset;
+        gap: 75px;
+
+        &__text:nth-child(1) { display: none; }
+    }
+}
+
+#THREE {
+    gap: 100px;
+
+    .imgmac { display: none; }
+
+    .title {
+        width: unset;
+        gap: 25px;
+    }
+
+    .wrap {
+        width: unset;
+        gap: unset;
+    }
+}
+
+#FOUR {
+    .title {
+        width: unset;
+        gap: 75px;
+    }
+
+    .form { display: none; }
+}
+
+#SEVEN { display:  none; }
+#FIVE { display:  none; }
+#EIGHT { display: none; }
+#NINE { display: none; }
+#TEN { display: none; }
