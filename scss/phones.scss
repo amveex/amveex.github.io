@@ -50,6 +50,8 @@ body {
     flex-direction: column;
 
     .info {
+        width: unset;
+
         &__title {
             display: none;
         }
